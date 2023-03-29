@@ -1,0 +1,266 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.myslides {
+  background-color: #dddddd;
+  max-width: 1600px;
+  margin: 0px auto;
+}
+.header {
+  position: relative;
+  width: 100%;
+  background-color: #dddddd;
+}
+.headeraboutme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.headertext > h1 {
+  font-size: 40px;
+  color: #1a1a1a;
+  margin-bottom: -10px;
+}
+.headertext > span {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+.point {
+  font-size: 33px;
+  color: #0081ff;
+}
+.number {
+  color: #1c1c1c;
+  font-size: 158.3px;
+  position: relative;
+  opacity: 0.5;
+}
+.info {
+  color: #373737;
+  font-size: 43.17px;
+  position: absolute;
+  top: 65px;
+  right: 58px;
+}
+.slide {
+  display: block;
+  width: 100%;
+  max-height: 700px;
+  overflow: hidden;
+}
+.slide img {
+  max-width: 718px;
+}
+
+.icons {
+  margin-top: 20px;
+  letter-spacing: 10px;
+}
+.icons a > img {
+  width: 25px;
+  height: 25px;
+}
+.myprofese {
+  max-width: 1170px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  display: flex;
+  justify-content: right;
+  right: 0px;
+  margin: 0px auto;
+  margin-top: -94px;
+}
+.myprofesediv {
+  max-width: 500px;
+}
+.myprofesediv span {
+  display: block;
+  margin-top: 7px;
+}
+.myprofese h1 {
+  font-size: 49.7px;
+  color: #212121;
+}
+.myprofese > span {
+  font-size: 23.29px;
+  color: #212121;
+}
+.lasttext {
+  color: #212121;
+  font-size: 24px;
+  position: absolute;
+  right: 90px;
+  bottom: 40px;
+}
+.precent {
+  margin-right: 9px;
+  color: #e93656;
+}
+.precent span {
+  color: #212121;
+}
+
+.line {
+  border-bottom: 6px solid #e93656;
+  margin-top: 5px;
+  width: 375px;
+}
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+  width: 100%;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutmesec {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px;
+  align-items: center;
+}
+.aboutme {
+  max-width: 343px;
+}
+.aboutme h1 {
+  margin-bottom: 6px;
+  font-size: 35px;
+  color: #222222;
+}
+.aboutme h3 {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #daae19;
+}
+.aboutme h4 {
+  margin-bottom: 30px;
+  font-size: 17px;
+  color: #555555;
+}
+.hireme a {
+  display: inline-block;
+  background-color: #e93656;
+  padding: 15px 40px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.hireme {
+  text-align: right;
+}
+.mypicture {
+  background-image: url(/images/section_img.jpg);
+  width: 430px;
+  height: 600px;
+  background-size: cover;
+}
+.myskillsdiv h1 b {
+  color: #e93656;
+  margin-left: 5px;
+}
+.myskillsdiv h1 {
+  font-size: 20px;
+}
+.myskills {
+  max-width: 300px;
+  width: 100%;
+}
+.myskillsdiv {
+  margin-bottom: 20px;
+}
+.skillLine {
+  width: 100%;
+  height: 9px;
+  background-color: #f0f0f0;
+  margin-top: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.skillLine span {
+  position: absolute;
+  height: 9px;
+  background-color: #e93656;
+  width: 0px;
+  transition: width 1.5s;
+}
+.precent100 {
+  width: 100% !important;
+}
+.precent90 {
+  width: 90% !important;
+}
+.parent80 {
+  width: 80% !important;
+}
+.parent85 {
+  width: 85% !important;
+}
+.socials a {
+  color: #6b6b6b;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.socials a:hover {
+  background-color: #15263e;
+  color: white;
+}
+.socials {
+  margin-top: 40px;
+}
+.sectinfo {
+  background-color: #131a36;
+  padding: 60px 0px;
+}
+.sectinfoflex {
+  display: flex;
+  justify-content: space-between;
+}
+.borderrad {
+  border: 4px dotted white;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 90px;
+}
+.borderrad i {
+  font-size: 30px;
+  color: #ffffff;
+}
+.borderrad:hover {
+  border-color: #e93656;
+  background-color: #e93656;
+}
+.sectinfoflex h1 {
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.sectinfoflex span {
+  color: #dfdfdf;
+}
+
+.myphone,
+.useraddress,
+.useremail {
+  display: flex;
+  align-items: center;
+}
