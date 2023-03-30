@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
   font-family: "Glacial Indifference";
-  src: url("../fonts/fonts/GlacialIndifference-Bold.ttf");
-} */
+  src: url("/fonts/GlacialIndifference-Bold.ttf");
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -37,11 +37,13 @@ body {
 }
 
 .headertext > h1 {
+  font-family: "Poppins";
   font-size: 40px;
   color: #1a1a1a;
   margin-bottom: -10px;
 }
 .headertext > span {
+  font-family: "Montserrat";
   font-size: 13px;
   color: #b3b3b3;
 }
@@ -50,12 +52,14 @@ body {
   color: #0081ff;
 }
 .number {
+  font-family: "Poppins";
   color: #1c1c1c;
   font-size: 158.3px;
   position: relative;
   opacity: 0.5;
 }
 .info {
+  font-family: "Poppins";
   color: #373737;
   font-size: 43.17px;
   position: absolute;
@@ -97,10 +101,12 @@ body {
   max-width: 500px;
 }
 .myprofesediv span {
+  font-family: "Glacial Indifference";
   display: block;
   margin-top: 7px;
 }
 .myprofese h1 {
+  font-family: "Poppins";
   font-size: 49.7px;
   color: #212121;
 }
@@ -116,10 +122,12 @@ body {
   bottom: 40px;
 }
 .precent {
+  font-family: "Montserrat";
   margin-right: 9px;
   color: #e93656;
 }
 .precent span {
+  font-family: "Montserrat";
   color: #212121;
 }
 
@@ -150,21 +158,25 @@ body {
   max-width: 343px;
 }
 .aboutme h1 {
+  font-family: "Glacial Indifference";
   margin-bottom: 6px;
   font-size: 35px;
   color: #222222;
 }
 .aboutme h3 {
+  font-family: "Muli";
   margin-bottom: 16px;
   font-size: 14px;
   color: #daae19;
 }
 .aboutme h4 {
+  font-family: "Muli";
   margin-bottom: 30px;
   font-size: 17px;
   color: #555555;
 }
 .hireme a {
+  font-family: "Glacial Indifference";
   display: inline-block;
   background-color: #e93656;
   padding: 15px 40px;
@@ -185,6 +197,7 @@ body {
   margin-left: 5px;
 }
 .myskillsdiv h1 {
+  font-family: "Glacial Indifference";
   font-size: 20px;
 }
 .myskills {
@@ -263,10 +276,12 @@ body {
   background-color: #e93656;
 }
 .sectinfoflex h1 {
+  font-family: "Glacial Indifference";
   margin-bottom: 5px;
   color: #ffffff;
 }
 .sectinfoflex span {
+  font-family: "Muli";
   color: #dfdfdf;
 }
 
@@ -293,6 +308,7 @@ body {
   box-sizing: border-box;
 }
 .sectionmoreinf {
+  font-family: "Roboto";
   width: calc(25% - 6px);
   height: 350px;
   background-color: #fafafa;
@@ -302,6 +318,7 @@ body {
 }
 
 .sectionmoreinf > img {
+  font-family: "Glacial Indifference";
   margin-top: -10px;
   margin-bottom: 10px;
   height: 85px;
@@ -341,6 +358,7 @@ body {
   color: #ffffff;
 }
 .sectionmoreinf:hover h3 {
+  font-family: "Muli";
   display: block;
   color: #ececec;
   font-size: 14px;
@@ -367,6 +385,7 @@ body {
   margin-right: 60px;
 }
 .evalutioninfo > img {
+  width: 170px; /*??????????? */
   border: 4px dotted white;
   border-radius: 50%;
   padding: 15px;
@@ -379,10 +398,12 @@ body {
   margin-bottom: 20px;
 }
 .evalutioninfo span {
+  font-family: "Roboto-regular";
   font-size: 13px;
   color: #e93656;
 }
 .evalutioninfo h1 {
+  font-family: "Glacial Indifference-Bold";
   margin-top: 7px;
   font-size: 28px;
   color: #ffffff;
