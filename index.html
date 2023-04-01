@@ -9,6 +9,8 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider_css.css" />
+    <style></style>
     <title>My Resume</title>
   </head>
   <body>
@@ -243,45 +245,59 @@
       </section>
       <section class="horizontalslide">
         <div class="container">
-          <div class="evalutioninfo">
-            <h2 class="evalutiontext">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est dolor sit amet, consectetur
-              adipisicing elit sed do eiusmod tempor incididunt ut labore..
-            </h2>
-            <img src="images/person.svg" alt="personimg" />
-            <div class="developeritem">
-              <h2 class="heavy">,,</h2>
-              <span>Web Developer</span>
-              <h1>Aleksandre Latsabidze</h1>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="evalutioninfo">
+                  <h2 class="evalutiontext">
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est dolor sit
+                    amet, consectetur adipisicing elit sed do eiusmod tempor
+                    incididunt ut labore..
+                  </h2>
+                  <img src="images/person.svg" alt="personimg" />
+                  <div class="developeritem">
+                    <h2 class="heavy">,,</h2>
+                    <span>Web Developer</span>
+                    <h1>Aleksandre Latsabidze</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="evalutioninfo">
+                  <h2 class="evalutiontext">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Molestiae placeat voluptates quis dignissimos quam id in
+                    inventore asperiores fugit illo commodi vel aut, laborum
+                    provident.
+                  </h2>
+                  <img src="images/personone.png" alt="personimg" />
+                  <div class="developeritem">
+                    <h2 class="heavy">,,</h2>
+                    <span>Full Stack Developer</span>
+                    <h1>John Drasner</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="evalutioninfo">
+                  <h2 class="evalutiontext">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum inventore impedit totam natus nemo, reiciendis optio
+                    vero consequatur debitis labore rerum expedita quos porro
+                    dicta.
+                  </h2>
+                  <img src="images/persontwo.png" alt="personimg" />
+                  <div class="developeritem">
+                    <h2 class="heavy">,,</h2>
+                    <span>Back And Developer</span>
+                    <h1>Charlie Spitter</h1>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <!-- <div class="evalutioninfo">
-            <h2 class="evalutiontext">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae placeat voluptates quis dignissimos quam id in inventore
-              asperiores fugit illo commodi vel aut, laborum provident.
-            </h2>
-            <img src="images/personone.png" alt="personimg" />
-            <div class="developeritem">
-              <h2 class="heavy">,,</h2>
-              <span>Full Stack Developer</span>
-              <h1>John Drasner</h1>
-            </div>
-          </div>
-          <div class="evalutioninfo">
-            <h2 class="evalutiontext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              inventore impedit totam natus nemo, reiciendis optio vero
-              consequatur debitis labore rerum expedita quos porro dicta.
-            </h2>
-            <img src="images/persontwo.png" alt="personimg" />
-            <div class="developeritem">
-              <h2 class="heavy">,,</h2>
-              <span>Back And Developer</span>
-              <h1>Charlie Spitter</h1>
-            </div>
-          </div> -->
         </div>
       </section>
       <section class="latest_project">
@@ -363,6 +379,7 @@
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

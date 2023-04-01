@@ -367,7 +367,7 @@ body {
 .horizontalslide {
   background-image: url("../images/countdown.jpg");
   background-size: cover;
-  padding: 85px 0;
+  padding: 100px 0;
   margin-top: 80px;
 }
 .evalutioninfo {
@@ -494,4 +494,25 @@ body {
 }
 .sidelist > h3:hover {
   color: #e93656;
+}
+
+.swiper {
+  height: 170px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: inherit !important;
+  background-color: transparent !important;
+  border: 2px solid #fff;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  border-color: #e93656;
 }

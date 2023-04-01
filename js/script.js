@@ -42,3 +42,12 @@ function myFunction() {
     bootstrapSpan.classList.remove("parent85");
   }
 }
+
+const swiper = new Swiper(".mySwiper", {
+  direction: "vertical",
+  allowTouchMove: false,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
