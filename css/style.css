@@ -183,7 +183,7 @@ body {
   text-align: right;
 }
 .mypicture {
-  background-image: url(/images/section_img.jpg);
+  background-image: url("../images/section_img.jpg");
   width: 430px;
   height: 600px;
   background-size: cover;
@@ -365,7 +365,7 @@ body {
   height: 750px;
 }
 .horizontalslide {
-  background-image: url("/images/countdown.jpg");
+  background-image: url("../images/countdown.jpg");
   background-size: cover;
   padding: 85px 0;
   margin-top: 80px;
