@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Bold";
   src: url("Montserrat-Bold.eot");
   src: url("Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
     url("Montserrat-Bold.woff2") format("woff2"),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "Glacial Indifference";
+  font-family: "Glacial Indifference-Regular";
   src: url("GlacialIndifference-Regular.eot");
   src: url("GlacialIndifference-Regular.eot?#iefix") format("embedded-opentype"),
     url("GlacialIndifference-Regular.woff2") format("woff2"),
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Regular";
   src: url("Montserrat-Regular.eot");
   src: url("Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
     url("Montserrat-Regular.woff2") format("woff2"),
@@ -59,7 +59,7 @@
 }
 
 @font-face {
-  font-family: "Muli";
+  font-family: "Muli regular";
   src: url("Muli-Regular.eot");
   src: url("Muli-Regular.eot?#iefix") format("embedded-opentype"),
     url("Muli-Regular.woff2") format("woff2"),
@@ -83,7 +83,7 @@
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-extrabold";
   src: url("Poppins-ExtraBold.eot");
   src: url("Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"),
     url("Poppins-ExtraBold.woff2") format("woff2"),
@@ -95,7 +95,7 @@
 }
 
 @font-face {
-  font-family: "Muli";
+  font-family: "Muli-Light";
   src: url("Muli-Light.eot");
   src: url("Muli-Light.eot?#iefix") format("embedded-opentype"),
     url("Muli-Light.woff2") format("woff2"),
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-light";
   src: url("Roboto-Light.eot");
   src: url("Roboto-Light.eot?#iefix") format("embedded-opentype"),
     url("Roboto-Light.woff2") format("woff2"),
