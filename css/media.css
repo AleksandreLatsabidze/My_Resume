@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1170px) {
+  .mypicture {
+    display: none;
+  }
+  .respon_img {
+    display: block;
+    width: 100%;
+  }
+
+  .aboutmesec {
+    display: block;
+  }
+  .aboutme {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .hireme {
+    text-align: center;
+  }
+  .myskills {
+    max-width: 500px;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .socials {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    background-color: black;
+  }
+
+  .myslides {
+    opacity: 0.6;
+  }
+  .headertext > h1,
+  .headertext > span,
+  .number,
+  .info,
+  .myprofese h1,
+  .myprofesediv span,
+  .precent,
+  .precent span {
+    color: white;
+  }
+  .number {
+    opacity: 0.3;
+  }
+  .line {
+    border-color: white;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .headertext > h1 {
+    font-size: 35px;
+  }
+  .headeraboutme {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .right_info {
+    max-width: 142px;
+    top: -20px;
+  }
+  .number {
+    font-size: 90px;
+  }
+  .info {
+    font-size: 28px;
+    top: 50px;
+    right: 0px;
+  }
+  .myprofese {
+    justify-content: center;
+    margin-top: -72px;
+  }
+  .myprofese h1 {
+    font-size: 25px;
+  }
+  .myprofese h1 b {
+    font-size: 20px;
+  }
+  .lasttext {
+    right: 15px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .lasttext {
+    width: 100%;
+    right: 0px;
+    padding: 0px 15px;
+    bottom: 15px;
+  }
+  .line {
+    width: 100%;
+  }
+}

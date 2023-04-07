@@ -73,9 +73,16 @@ a {
   box-sizing: border-box;
   position: absolute;
   top: 0px;
+  z-index: 1;
   width: 100%;
 }
-
+.right_info {
+  position: relative;
+  top: -45px;
+  max-width: 244px;
+  width: 100%;
+  text-align: center;
+}
 .headertext > h1 {
   font-family: "Poppins-extrabold";
   font-size: 40px;
@@ -114,6 +121,7 @@ a {
 }
 .slide img {
   max-width: 718px;
+  width: 100%;
 }
 
 .icons {
@@ -855,4 +863,8 @@ footer .container {
 }
 .lastdiv span {
   color: #ffffff;
+}
+.respon_img {
+  display: none;
+  width: 100%;
 }
