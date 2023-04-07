@@ -67,7 +67,6 @@ a {
 .headeraboutme {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 0px auto;
   padding-left: 60px;
   padding-right: 60px;
@@ -146,9 +145,14 @@ a {
   display: block;
   margin-top: 7px;
 }
+.myprofese h1 b {
+  font-family: "Glacial Indifference-Regular";
+  font-size: 35px;
+  display: block;
+}
 .myprofese h1 {
   font-family: "Poppins";
-  font-size: 49.7px;
+  font-size: 42px;
   color: #212121;
 }
 .myprofese > span {
@@ -477,11 +481,17 @@ a {
 
 .sidelist > h3 {
   font-family: "Glacial Indifference-Bold";
-  cursor: pointer;
+
   font-size: 20px;
   color: #ffffff;
   margin: 10px 60px;
   line-height: 40px;
+}
+.button_click {
+  cursor: pointer;
+}
+.button_click_active {
+  color: #e93656 !important;
 }
 .moreimg_img > img {
   display: block;
@@ -540,7 +550,7 @@ a {
 .moreimg_img:hover .moreimg_info {
   display: block;
 }
-.sidelist > h3:hover {
+.sidelist > h3 span:hover {
   color: #e93656;
 }
 

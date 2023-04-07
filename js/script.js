@@ -52,39 +52,42 @@ const swiper = new Swiper(".mySwiper", {
   },
 });
 
+// .............
+let categoryLink = document.querySelectorAll(".button_click");
+
+for (i = 0; i < categoryLink.length; i++) {
+  let clicked = categoryLink[i];
+  clicked.addEventListener("click", function () {
+    categoryLink = document.querySelectorAll(".button_click");
+    for (i = 0; i < categoryLink.length; i++) {
+      categoryLink[i].classList.remove("button_click_active");
+    }
+
+    this.classList.add("button_click_active");
+  });
+}
+
 let object = {
   address: [
     {
       title: ["3D Mockup Design", "2D Mockup Design"],
       span: ["9 MONTS AGO", "2 MONTS AGO"],
-      img: [
-        "http://127.0.0.1:5500/images/icon_idea.png",
-        "http://127.0.0.1:5500/images/icon_idea.png",
-      ],
+      img: ["images/work_and_presentation.jpg ", "images/work_logo.jpeg"],
     },
     {
-      title: ["5D Mockup Design", "6D Mockup Design", "7D Mockup Design"],
-      span: ["6 MONTS AGO", "7 MONTS AGO", "3 MONTS AGO"],
-      img: [
-        "http://127.0.0.1:5500/images/icon_idea.png",
-        "http://127.0.0.1:5500/images/icon_idea.png",
-        "http://127.0.0.1:5500/images/icon_idea.png",
-      ],
+      title: ["3D Mockup Design", "2D Mockup Design"],
+      span: ["9 MONTS AGO", "2 MONTS AGO"],
+      img: ["images/design_logo.jpg", "images/work_logo.jpeg"],
     },
     {
-      title: [
-        "5D Mockup Design",
-        "6D Mockup Design",
-        "7D Mockup Design",
-        "6D Mockup Design",
-      ],
-      span: ["6 MONTS AGO", "7 MONTS AGO", "3 MONTS AGO", "7 MONTS AGO"],
-      img: [
-        "http://127.0.0.1:5500/images/icon_idea.png",
-        "http://127.0.0.1:5500/images/icon_idea.png",
-        "http://127.0.0.1:5500/images/icon_idea.png",
-        "http://127.0.0.1:5500/images/icon_idea.png",
-      ],
+      title: ["3D Mockup Design"],
+      span: ["9 MONTS AGO"],
+      img: ["images/icon_mockup.jpg"],
+    },
+    {
+      title: ["3D Mockup Design"],
+      span: ["9 MONTS AGO"],
+      img: ["images/psd_image.jpg"],
     },
   ],
 };
@@ -95,28 +98,31 @@ cateGoryid.forEach((box) => {
   box.addEventListener("click", function handleClick(event) {
     let dataattribute = box.getAttribute("data");
 
-    const dD = Object.keys(object["address"][dataattribute]["title"])
-      .map(function (key) {
-        //
-        return (
-          '<div class="moreimg_img"><img src="' +
-          object["address"][dataattribute]["img"][key] +
-          '" alt="image" /><div class="moreimg_info"><div class="moreimg_center"><img src="images/heart.svg" alt="hearticon" /><span>' +
-          object["address"][dataattribute]["span"][key] +
-          " </span><h1> " +
-          object["address"][dataattribute]["title"][key] +
-          " </h1></div></div></div>"
-        );
-      })
-      .join("");
+    if (typeof object["address"][dataattribute] !== "undefined") {
+      const dD = Object.keys(object["address"][dataattribute]["title"])
+        .map(function (key) {
+          //
+          return (
+            '<div class="moreimg_img"><img src="' +
+            object["address"][dataattribute]["img"][key] +
+            '" alt="image" /><div class="moreimg_info"><div class="moreimg_center"><img src="images/heart.svg" alt="hearticon" /><span>' +
+            object["address"][dataattribute]["span"][key] +
+            " </span><h1> " +
+            object["address"][dataattribute]["title"][key] +
+            " </h1></div></div></div>"
+          );
+        })
+        .join("");
 
-    document.querySelector("#moreimg").innerHTML = dD;
+      document.querySelector("#moreimg").innerHTML = dD;
+    }
   });
 });
 
 const allItem = document.querySelector(".all");
 
 allItem.addEventListener("click", function handleClick(event) {
+  document.querySelector("#moreimg").innerHTML = "";
   object.address.forEach((score, index, array) => {
     const Leng = score.title.length;
     console.log(Leng);
@@ -131,4 +137,19 @@ allItem.addEventListener("click", function handleClick(event) {
         "</h1></div></div></div>";
     }
   });
+});
+
+object.address.forEach((score, index, array) => {
+  const Leng = score.title.length;
+  console.log(Leng);
+  for (let i = 0; i < Leng; i++) {
+    document.querySelector("#moreimg").innerHTML +=
+      '<div class="moreimg_img"><img src="' +
+      score.img[i] +
+      '" alt="image" /><div class="moreimg_info"><div class="moreimg_center"><img src="images/heart.svg" alt="hearticon" /><span>' +
+      score.span[i] +
+      "</span><h1> " +
+      score.title[i] +
+      "</h1></div></div></div>";
+  }
 });
