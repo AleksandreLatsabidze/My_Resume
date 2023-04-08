@@ -312,7 +312,7 @@ a {
 }
 .borderrad {
   border: 4px dotted white;
-  width: 90px;
+  width: 90px !important;
   height: 90px;
   border-radius: 50%;
   text-align: center;
@@ -867,4 +867,7 @@ footer .container {
 .respon_img {
   display: none;
   width: 100%;
+}
+.swiper-vertical {
+  padding-right: 35px !important;
 }

@@ -27,6 +27,10 @@
   .socials {
     text-align: center;
   }
+  .sectionmoreinf {
+    height: 274px;
+    padding-top: 80px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -53,6 +57,39 @@
   .line {
     border-color: white;
   }
+  .sectinfo {
+    padding: 30px 0px;
+  }
+  .sectinfoflex {
+    display: block;
+    text-align: center;
+  }
+  .sectinfoflex div {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .sectinfoflex > div {
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+  }
+  .sectinfoflex > div:first-child {
+    padding-top: 0px;
+  }
+  .heavy {
+    display: none;
+  }
+  .evalutiontext {
+    display: none;
+  }
+  .horizontalslide {
+    padding: 15px 0px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .sectionmoreinf {
+    width: calc(50% - 6px);
+  }
 }
 
 @media only screen and (max-width: 670px) {
@@ -68,10 +105,10 @@
     top: -20px;
   }
   .number {
-    font-size: 90px;
+    font-size: 85px;
   }
   .info {
-    font-size: 28px;
+    font-size: 25px;
     top: 50px;
     right: 0px;
   }
@@ -88,6 +125,24 @@
   .lasttext {
     right: 15px;
     font-size: 20px;
+  }
+  .evalutioninfo > img {
+    width: 140px;
+    margin-top: 15px;
+  }
+  .developeritem {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .evalutioninfo h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sectionmoreinf {
+    width: 100%;
+    height: 230px;
+    padding-top: 60px;
   }
 }
 @media only screen and (max-width: 420px) {
