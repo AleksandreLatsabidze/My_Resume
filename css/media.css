@@ -110,10 +110,43 @@
   .latest_project .container {
     padding: 0px;
   }
+  .news_items {
+    display: block;
+  }
+  .news_graph {
+    width: 100%;
+  }
+  .news_grap_img {
+    width: 100%;
+  }
+  .columnreverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .news_title {
+    margin-top: 40px;
+  }
+  .news_grap_img > img {
+    height: 360px;
+  }
+  .news_graph_info > h1 {
+    font-size: 30px;
+  }
+  #contactform {
+    max-width: 700px;
+    margin: 0px auto;
+  }
+  .forminput input {
+    padding: 10px;
+  }
 }
 @media only screen and (max-width: 980px) {
   .sectionmoreinf {
     width: calc(50% - 6px);
+  }
+  .rosateam_item:last-child {
+    display: none;
   }
 }
 
@@ -165,6 +198,38 @@
   .moreimg_img {
     max-height: 240px;
   }
+  .rosateam_item {
+    width: 50%;
+  }
+  .rosateam_info {
+    flex-wrap: wrap;
+  }
+  .rosa_title h1,
+  .basictext,
+  .news_title > h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .rosa_team {
+    margin: 40px 0px;
+  }
+  .rosateam_item img {
+    width: 90px;
+  }
+  .basictext {
+    margin-top: 30px;
+  }
+  .footer_title h1 {
+    font-size: 30px;
+  }
+  footer {
+    padding-top: 20px;
+  }
+  .rocatext h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
 }
 @media only screen and (max-width: 550px) {
   .sectionmoreinf {
@@ -176,7 +241,20 @@
     max-height: 200px;
   }
   .moreimg_info h1 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .news_grap_img > img {
+    height: 250px;
+  }
+  .forminputs > .forminput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .forminputs {
+    flex-wrap: wrap;
+  }
+  .formtextarea textarea {
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 420px) {

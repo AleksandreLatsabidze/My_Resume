@@ -649,12 +649,12 @@ a {
 .news_graph_info {
   max-width: 600px;
   margin: 0px auto;
-  padding: 0px 15px;
+  padding: 15px 15px;
   box-sizing: border-box;
 }
 .news_grap_img > img {
   display: block;
-  max-height: 470px;
+  height: 470px;
   object-fit: cover;
 }
 .new_graph_years {
@@ -826,6 +826,7 @@ footer .container {
   max-width: 571px;
   margin: 0px auto;
   text-align: center;
+  padding: 0px 15px;
 }
 .rocatext h1 {
   font-family: "Poppins-extrabold";
@@ -857,7 +858,7 @@ footer .container {
   font-size: 15px;
   color: #a0a8b7;
   text-align: center;
-  padding: 25px 0px;
+  padding: 25px 15px;
   position: relative;
   z-index: 1;
 }
